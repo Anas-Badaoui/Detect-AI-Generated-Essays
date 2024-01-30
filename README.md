@@ -19,7 +19,7 @@ To install and use Detect-AI-Generated-Essays, please follow these steps:
 
 1. Clone the GitHub repository:
     ```
-    git clone [Your GitHub Repo Link Here]
+    git clone https://github.com/Anas-Badaoui/Detect-AI-Generated-Essays.git
     ```
 2. Navigate to the project directory:
     ```
