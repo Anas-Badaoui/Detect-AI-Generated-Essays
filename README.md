@@ -15,11 +15,12 @@ The motivation for this project stems from the need to preserve trust and authen
 This project was developed using a high-end GPU (A6000 with 48 GB of RAM) to ensure efficient processing of large datasets and rapid execution of the model.
 
 ## Installation and Usage
-To install and use Detect-AI-Generated-Essays, please follow these steps:
+
+To reproduce the results of the Detect-AI-Generated-Essays tool, follow these steps carefully:
 
 1. Clone the GitHub repository:
     ```
-    git clone [Your GitHub Repo Link Here]
+    git clone https://github.com/Anas-Badaoui/Detect-AI-Generated-Essays.git
     ```
 2. Navigate to the project directory:
     ```
@@ -37,8 +38,21 @@ To install and use Detect-AI-Generated-Essays, please follow these steps:
     ```
     pip install -r requirements.txt
     ```
+5. Download the large dataset used for pretraining from the Kaggle dataset:
+   - Access the dataset from this link [here](https://www.kaggle.com/datasets/anas97/detect-ai-generated-essays-input-data)
+   - Place the downloaded files into the `data` folder within the project directory.
 
-Further instructions on using the application will be provided once the web app deployment is complete.
+6. Run the pretraining script:
+    ```
+    python pretrain_model.py
+    ```
+
+7. Open and run the `train.ipynb` Jupyter notebook to train the model.
+
+### Disclaimers and Recommendations
+- The input data is approximately 6GB in size, which may take some time to download and load locally.
+- The pretraining and training were conducted on a high-end GPU (A6000 with 48 GB of RAM). If you encounter an out-of-memory error, it is likely due to using a GPU with less memory. In that case, consider reducing the batch size in the training script to accommodate the capabilities of your hardware.
+
 
 ## Credits and Acknowledgments
 Heartfelt thanks to Guanshuo XU for creating the large dataset that was instrumental in the pretraining phase of this project. Their contribution is greatly appreciated and recognized. [Guanshuo XU](https://www.kaggle.com/wowfattie)
