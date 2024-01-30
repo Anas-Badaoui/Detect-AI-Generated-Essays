@@ -1,0 +1,10 @@
+{
+    "seed": 1,
+    "learning_rate": 0.00001,
+    "max_len": 768,
+    "batch_size": 32,
+    "num_epoch": 1,
+    "model_path": "microsoft/deberta-v3-base",
+    "out_dir": "outputs/",
+    "pretrained_model_path":"./outputs/weights_pre_trained_ep0"
+}
