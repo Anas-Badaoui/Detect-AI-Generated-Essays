@@ -7,4 +7,5 @@
     "model_path": "microsoft/deberta-v3-base",
     "out_dir": "outputs/",
     "pretrained_model_path":"./outputs/weights_pre_trained_ep0"
+    "fine_tuned_model_path":"./outputs/weights_finetuned_ep0"
 }

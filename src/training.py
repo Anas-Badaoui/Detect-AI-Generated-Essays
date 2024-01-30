@@ -29,6 +29,14 @@ def get_model_for_training(model_path, pretrained_model_path):
     model.load_state_dict(torch.load(pretrained_model_path))
     return model
 
+def get_model_for_deployment(model_path, finetuned_model_path):    
+    config = AutoConfig.from_pretrained(model_path)
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    model = DAIGTModel(model_path, config, tokenizer, pretrained=True)
+    # Load weights from the custom pretrained model
+    model.load_state_dict(torch.load(finetuned_model_path, map_location = torch.device('cpu')))
+    return model
+
 def launch_training(model, num_epoch, train_generator, device, optimizer, scheduler, out_dir):
     """
     Function to launch the training process.
