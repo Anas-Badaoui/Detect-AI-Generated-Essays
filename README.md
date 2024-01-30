@@ -1,5 +1,7 @@
 # Detect-AI-Generated-Essays
 
+![AI vs Human](./images/human_vs_ai_essay.png)
+
 ## Description
 Detect-AI-Generated-Essays is a machine learning tool aimed at helping instructors determine the authenticity of student-submitted essays. In an educational landscape where AI-generated content is becoming increasingly indistinguishable from human writing, this tool serves as a crucial asset for maintaining academic integrity.
 
