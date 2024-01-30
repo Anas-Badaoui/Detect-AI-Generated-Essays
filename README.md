@@ -39,7 +39,7 @@ To reproduce the results of the Detect-AI-Generated-Essays tool, follow these st
     pip install -r requirements.txt
     ```
 5. Download the large dataset used for pretraining from the Kaggle dataset:
-   - Access the dataset at [Detect-AI-Generated-Essays Input Data on Kaggle](https://www.kaggle.com/datasets/anas97/detect-ai-generated-essays-input-data)
+   - Access the dataset from this link [here](https://www.kaggle.com/datasets/anas97/detect-ai-generated-essays-input-data)
    - Place the downloaded files into the `data` folder within the project directory.
 
 6. Run the pretraining script:
