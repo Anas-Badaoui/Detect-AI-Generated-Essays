@@ -13,3 +13,4 @@ transformers==4.20.1
 umap==0.1.1
 umap_learn==0.5.5
 sentencepiece
+protobuf==3.19.4
