@@ -163,8 +163,9 @@ That part of the theory makes more sense if you take into consideration the angl
 
 If you still do not believe me, then this next part will. If you think about it, why would NASA keep an amazing discover like this a secret? The answer is that they would not. If NASA went worldwide with their "face" they would make more money than millionaires or even other space academies. It does not make sense that the academy would keep an alien encounter hidden.
 
-In conclusion, NASA is either brave or very stupid not to tell people about their "face", or people just want to get their word out to make other people critisized, make other people feel stupid, or they just want to feel like they are correct when they are clearly not. Therefore; This "so called face" is not a face, but it is just a land mark that was naturally constructed by the elements and not alien life-forms."""],
-        'Score': ['99.73%', '12.41%'],
+In conclusion, NASA is either brave or very stupid not to tell people about their "face", or people just want to get their word out to make other people critisized, make other people feel stupid, or they just want to feel like they are correct when they are clearly not. Therefore; This "so called face" is not a face, but it is just a land mark that was naturally constructed by the elements and not alien life-forms.""",
+                 """No one wants to pay taxes. Especially when governments are corrupt or spend money in matters that are not in line with ones belief. Furthermore, taxing revenues is very inefficient and most of the times unfair compared to taxing idle money that is sleeping in the bank and not being invested in any beneficial thing. In fact, why would you impose taxes on someone that generates 100.000k a year and spends 90.000k in total the same way you impose taxes on someone that generates the same amount but lmost never spends anything ? That really doesn't make any sense! Another drawback of the current tax system is that it gives centralised decision making power to a few minority in the society..."""],
+        'Score': ['99.65%', '47.49%', '31.23%'],
     }))
     
  # models
