@@ -11,7 +11,7 @@ The motivation for this project stems from the need to preserve trust and authen
 ## Features
 - **Advanced Detection**: Utilizes the 'deberta-v3-base' transformer model architecture for high accuracy in distinguishing between human and AI-generated text.
 - **Comprehensive Pretraining**: The model is pretrained on a dataset containing 500k pairs of general texts, ensuring it understands a wide range of writing styles.
-- **Interactive Web App**: Experience the AI essay detector firsthand through our [Streamlit Web App](https://detect-ai-generated-essays.streamlit.app/). This user-friendly interface allows for easy interaction with the tool.
+- **Interactive Web App**: Experience the AI essay detector firsthand through this [interactive Web App](https://detect-ai-generated-essays.streamlit.app/). This user-friendly interface allows for easy interaction with the tool.
 
 ## Technologies Used
 This project was developed using a high-end GPU (A6000 with 48 GB of RAM) to ensure efficient processing of large datasets and rapid execution of the model.
