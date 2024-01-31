@@ -19,7 +19,7 @@ from model import get_model
 from tokenizer import get_tokenizer
 
 # Load the configuration file
-with open('../config.json') as config_file:
+with open('config.json') as config_file:
     config_model = json.load(config_file)
     
 # download with progress bar
@@ -90,7 +90,7 @@ if st.button('Compute prediction'):
         gc.collect()
 
         # initialize model
-        model = get_model(config_model)
+        model = get_model(config_model, folder_path + 'pytorch_model.bin')
         model.eval()
 
         # load tokenizer
