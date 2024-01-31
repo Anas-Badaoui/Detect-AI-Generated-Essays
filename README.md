@@ -9,7 +9,7 @@ Detect-AI-Generated-Essays is a machine learning tool aimed at helping instructo
 The motivation for this project stems from the need to preserve trust and authenticity in academic work. As AI writing tools become more accessible, there is a growing concern that such technology could be misused. This project is driven by the belief that educators deserve robust tools to verify the originality of their students' work.
 
 ## Features
-- **Advanced Detection**: Utilizes the 'deberta-v3-base' transformer model architecture for high accuracy in distinguishing between human and AI-generated text.
+- **Advanced Detection**: Utilizes the 'distilroberta-base' transformer model architecture for high accuracy in distinguishing between human and AI-generated text.
 - **Comprehensive Pretraining**: The model is pretrained on a dataset containing 500k pairs of general texts, ensuring it understands a wide range of writing styles.
 - **Interactive Web App**: Experience the AI essay detector firsthand through this [interactive Web App](https://detect-ai-generated-essays.streamlit.app/). This user-friendly interface allows for easy interaction with the tool.
 

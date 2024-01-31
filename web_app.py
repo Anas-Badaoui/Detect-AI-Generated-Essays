@@ -78,7 +78,7 @@ if st.button('Compute prediction'):
 
 
     folder_path = 'outputs/'
-    weight_path = 'https://github.com/Anas-Badaoui/Detect-AI-Generated-Essays/releases/download/v1.0/weights_finetuned_ep0'
+    weight_path = 'https://github.com/Anas-Badaoui/Detect-AI-Generated-Essays/releases/download/v1.0/weights_finetuned_ep4'
 
     # Create the directory if it doesn't exist
     os.makedirs(folder_path, exist_ok=True)

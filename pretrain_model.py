@@ -46,7 +46,7 @@ def main():
     max_len = 256
     batch_size = 128
     num_epoch = 1
-    model_path = 'microsoft/deberta-v3-base' #'distilroberta-base'
+    model_path = 'distilroberta-base'
 
     # build model
     config = AutoConfig.from_pretrained(model_path)
