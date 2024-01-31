@@ -73,11 +73,11 @@ input_text = st.text_area('Which essay would you like to pass through the model?
 
 ##### MODELING
 
-@st.cache_data
+@st.cache(hash_funcs={"MyUnhashableClass": lambda _: None})
 def run_model(inputs, masks):
     return model(inputs, masks)
 
-@st.cache_resource
+@st.cache(hash_funcs={"MyUnhashableClass": lambda _: None})
 def get_model_cached(config_model, path_to_model):
     return get_model(config_model, path_to_model)
     
