@@ -12,6 +12,8 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 import json
+import certifi
+import ssl
 
 # custom libraries
 sys.path.append('src')
@@ -78,10 +80,16 @@ if st.button('Compute prediction'):
     folder_path = 'outputs/'
     weight_path = 'https://github.com/Anas-Badaoui/Detect-AI-Generated-Essays/releases/download/v1.0/weights_finetuned_ep0'
 
+    # Create the directory if it doesn't exist
+    os.makedirs(folder_path, exist_ok=True)
+
     # download model weights
     if not os.path.isfile(folder_path + 'pytorch_model.bin'):
         with st.spinner('Downloading model weights. This is done once and can take a minute...'):
-            urllib.request.urlretrieve(weight_path, folder_path + 'pytorch_model.bin', show_progress)
+            ssl_context = ssl.create_default_context()
+            ssl_context.load_verify_locations(certifi.where())
+            with urllib.request.urlopen(weight_path, context=ssl_context) as u, open(folder_path + 'pytorch_model.bin', 'wb') as f:
+                f.write(u.read())
 
     # compute predictions
     with st.spinner('Computing prediction...'):
